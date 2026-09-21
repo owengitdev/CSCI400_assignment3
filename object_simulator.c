@@ -31,8 +31,11 @@
 
 typedef struct Character {
     // TODO: Add data members here
-    
-    
+    char name[50]; 
+    int health;
+    int level;
+
+    void(*attack)(struct Character* self, int damage) 
     
     
     // TODO: Add function pointer members here
