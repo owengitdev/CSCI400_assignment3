@@ -222,18 +222,24 @@ int main() {
     
     // TODO: Create and test your character system here
     // 1. Create a basic Character using character_init
+    Character base_character;
     character_init(&base_character, "Adventurer", 100, 1);
     // 2. Call its attack and take_damage methods
-    &base.character(take_damage);
+    base_character.attack(&base_character);
     // 3. Create a Warrior using warrior_init
-    warrior_init(&base_character, "Wizard", 100, 1);
+    Warrior warrior;
+    warrior_init(&warrior, "Conan", 100, 1, 20);
     // 4. Call the Warrior's attack method (should use warrior_attack)
+    warrior_attack(&warrior);
     // 5. Create a Mage using mage_init
-    
+    Mage mage;
+    mage_init(&mage, "Wizard", 200, 2, 30);
     // 6. Call the Mage's attack method multiple times (to show mana usage)
+    mage_attack(&mage);
+
     // 7. Demonstrate polymorphism by storing different character types
     //    in an array and calling attack on each
-    
+    printf("\nDemonstrating polymorphism:\n");
     
     
     

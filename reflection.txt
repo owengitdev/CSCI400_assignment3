@@ -1,0 +1,36 @@
+Structs vs Classes
+Compare your C struct implementation to Python classes. 
+What manual steps did you perform in C (function pointer setup, explicit "self" passing) that Python handles automatically?
+
+In my C program, I had to manually implemented one single function pointer and my self(Character) into the code since it requires more details
+in order to see the stat since Python does thing automatically without manually putting into a great effort. 
+
+
+When you call a method on an object in Python, 
+what is actually happening based on what you implemented in C?
+
+In C, You have struct and void inside of the code. I see the huge difference between a method on an object in Python. In C, You have implement more code within functions in 
+order to print out some various information of the person's details. In C, You need to put many details like coding the function to do attack and do mage spell within the code.
+
+
+Inheritance Implementation 
+Explain how you achieved inheritance in C using composition (embedding the base struct in derived structs). How does this differ from Python's inheritance syntax?
+I generally see the huge difference between achieved inheritance in C by using composition and Python's inheritance syntax. The inheritance in C is about having a information
+within the struct in order to pass off to the person who will receive it. You have manually put into a huge code in order for C to print out the data. Python is about
+automatically putting the data and its destination is to hand the data to the destinated code. 
+
+What advantages does Python's inheritance syntax provide over the C approach?
+The full advantages of Python's inheritance syntax is that the code is well organized, 
+code reusability  and easy maintenance. In C, The approach is mostly not organized and not fully maintained. 
+
+Understanding OOP Mechanics 
+
+
+Why do function pointers in structs enable polymorphism (different behavior for the same method call)?
+The reason function pointers in structs had enable polymorphism is because C don't have 
+a built-in class system and mostly requires you to implement the code yourself. Having polymorphism is the best thing in C language since many details with many coding can
+help sort of information easily. Function pointers in struct is the key of polymorphism and helps with printing information perfectly as possible.
+
+Based on this assignment, why might systems programmers use these patterns even though C doesn't have built-in OOP support?
+There are sereval reasons that programmers will use the patterns since they probably wanted to do their own implementation without built-in OOP support.  
+Using patterns can help programmers to do their job perfectly and implement the best information within the code. 
